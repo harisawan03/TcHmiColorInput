@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{3B740506-4966-4147-AB1F-357FE08946EA}") = "TcHmiColorInput", "TcHmiColorInput\TcHmiColorInput.hmiextproj", "{323DED0D-F0CB-41BF-BC3C-CC7E22740AC8}"
+EndProject
+Project("{FE7A1B72-C5B7-4D7C-BB7D-76384D4DE8E1}") = "TcHmiColorInputDemo", "TcHmiColorInputDemo\TcHmiColorInputDemo.hmiproj", "{6D8E22A0-FEC0-42F6-BD5F-8BC3FE3A036D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TwinCAT HMI = Debug|TwinCAT HMI
+		Release|TwinCAT HMI = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{323DED0D-F0CB-41BF-BC3C-CC7E22740AC8}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{323DED0D-F0CB-41BF-BC3C-CC7E22740AC8}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{323DED0D-F0CB-41BF-BC3C-CC7E22740AC8}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{323DED0D-F0CB-41BF-BC3C-CC7E22740AC8}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+		{6D8E22A0-FEC0-42F6-BD5F-8BC3FE3A036D}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{6D8E22A0-FEC0-42F6-BD5F-8BC3FE3A036D}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{6D8E22A0-FEC0-42F6-BD5F-8BC3FE3A036D}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{6D8E22A0-FEC0-42F6-BD5F-8BC3FE3A036D}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F0129E2-AF90-481D-B57C-AB64AEB9BF06}
+	EndGlobalSection
+EndGlobal
