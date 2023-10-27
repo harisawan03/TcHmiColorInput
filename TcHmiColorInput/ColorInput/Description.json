@@ -92,13 +92,27 @@
       "type": "tchmi:framework#/definitions/Color"
     },
     {
-      "name": "data-tchmi-test-color",
+      "name": "data-tchmi-text-color",
       "propertyName": "TextColor",
       "propertySetterName": "setTextColor",
       "propertyGetterName": "getTextColor",
       "displayName": "TextColor",
       "visible": false,
       "type": "tchmi:framework#/definitions/Color"
+    },
+    {
+      "name": "data-tchmi-system-keyboard-input-mode",
+      "propertyName": "SystemKeyboardInputMode",
+      "propertySetterName": "setSystemKeyboardInputMode",
+      "propertyGetterName": "getSystemKeyboardInputMode",
+      "displayName": "SystemKeyboardInputMode",
+      "visible": false,
+      "type": "tchmi:framework#/definitions/Inputmode",
+      "readOnly": false,
+      "bindable": false,
+      "heritable": false,
+      "defaultValue": "none",
+      "defaultValueInternal": "none"
     }
   ],
   "attributeCategories": [],

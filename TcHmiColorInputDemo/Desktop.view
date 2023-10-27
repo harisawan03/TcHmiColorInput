@@ -15,7 +15,7 @@
 
 
 </div>
-<div id="ColorInput" data-tchmi-type="TcHmi.Controls.TcHmiColorInput.ColorInput" data-tchmi-auto-focus-out="true" data-tchmi-height="33" data-tchmi-height-unit="px" data-tchmi-left="84" data-tchmi-left-unit="px" data-tchmi-text="Input" data-tchmi-top="162" data-tchmi-top-unit="px" data-tchmi-width="66" data-tchmi-width-unit="px" data-tchmi-color="%i%iColor%/i%">
+<div id="ColorInput" data-tchmi-type="TcHmi.Controls.TcHmiColorInput.ColorInput" data-tchmi-auto-focus-out="true" data-tchmi-height="33" data-tchmi-height-unit="px" data-tchmi-left="84" data-tchmi-left-unit="px" data-tchmi-text="Input" data-tchmi-top="162" data-tchmi-top-unit="px" data-tchmi-width="66" data-tchmi-width-unit="px" data-tchmi-color="%i%iColor%/i%" data-tchmi-system-keyboard-input-mode="none">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -72,17 +72,35 @@
 
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "ColorInput.onColorChanged",
-    "actions": []
-  }
-]
-</script>
+
 </div>
 <div id="TcHmiEllipse" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiEllipse" data-tchmi-height="75" data-tchmi-height-unit="px" data-tchmi-left="80" data-tchmi-left-unit="px" data-tchmi-top="220" data-tchmi-top-unit="px" data-tchmi-width="75" data-tchmi-width-unit="px" data-tchmi-fill-color="%ctrl%ColorInput::Color%/ctrl%">
 
 
+</div>
+<div id="ColorInput_1" data-tchmi-type="TcHmi.Controls.TcHmiColorInput.ColorInput" data-tchmi-auto-focus-out="true" data-tchmi-height="27" data-tchmi-height-unit="px" data-tchmi-left="91" data-tchmi-left-unit="px" data-tchmi-system-keyboard-input-mode="none" data-tchmi-text="Input" data-tchmi-top="349" data-tchmi-top-unit="px" data-tchmi-width="50" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+<script data-tchmi-target-attribute="data-tchmi-color" type="application/json">
+{
+  "color": "#000000"
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ColorInput_1.onAttached",
+    "actions": []
+  }
+]
+</script>
 </div>
 </div>

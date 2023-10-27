@@ -108,7 +108,7 @@ var TcHmi;
                 }
 
 
-                /**** hiding background and text color properties so defining empty setter/getter ****/
+                /**** hiding these properties so defining empty setter/getter ****/
 
                 setBackgroundColor() {
                     return;
@@ -126,7 +126,7 @@ var TcHmi;
                     return;
                 }
 
-                /*************************************************************************************/
+                /*****************************************************************/
 
 
                 // do not write to this.__color anywhere but setColor()
