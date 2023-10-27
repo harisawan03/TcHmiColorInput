@@ -47,6 +47,9 @@ var TcHmi;
                     }
 
                     this.__colorInp = this.__elementTemplateRoot.find('.TcHmi_Controls_Beckhoff_TcHmiColorInput-template-colorinput');
+                    if (this.__colorInp.length === 0) {
+                        throw new Error('Invalid Template.html');
+                    }
 
                     // Call __previnit of base class
                     super.__previnit();
@@ -132,15 +135,16 @@ var TcHmi;
                 // do not write to this.__color anywhere but setColor()
                 setColor(colorNew) {
 
-                    // color value comes as string from input, convert to Color Object
-                    if (typeof colorNew === 'string') {
-                        colorNew = { color: colorNew };
-                    }
-                    
                     if (colorNew === null) {
                         colorNew = this.getAttributeDefaultValueInternal('Color');
                     }
 
+                    // color value comes as string from input, convert to Color Object
+                    if (typeof colorNew === 'string') {
+                        colorNew = { color: colorNew };
+                    }
+
+                    // skip processing if value is the same
                     if (tchmi_equal(colorNew, this.__color)) {
                         return;
                     }
@@ -165,6 +169,7 @@ var TcHmi;
 
                 __convertRgbaToHex(colorVal) {
 
+                    // retrieve color string from object for conversion
                     let color = colorVal['color'];
                     
                     // color input val needs to be hex, if rgba convert to hex
