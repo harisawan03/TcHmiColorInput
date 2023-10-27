@@ -113,6 +113,24 @@
       "heritable": false,
       "defaultValue": "none",
       "defaultValueInternal": "none"
+    },
+    {
+      "name": "data-tchmi-text",
+      "propertyName": "Text",
+      "propertySetterName": "setText",
+      "propertyGetterName": "getText",
+      "displayName": "Text",
+      "visible": false,
+      "type": "tchmi:general#/definitions/String"
+    },
+    {
+      "name": "data-tchmi-auto-select-text",
+      "propertyName": "AutoSelectText",
+      "propertySetterName": "setAutoSelectText",
+      "propertyGetterName": "getAutoSelectText",
+      "displayName": "AutoSelectText",
+      "visible": false,
+      "type": "tchmi:general#/definitions/Boolean"
     }
   ],
   "attributeCategories": [],

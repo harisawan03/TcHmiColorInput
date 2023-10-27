@@ -78,29 +78,4 @@
 
 
 </div>
-<div id="ColorInput_1" data-tchmi-type="TcHmi.Controls.TcHmiColorInput.ColorInput" data-tchmi-auto-focus-out="true" data-tchmi-height="27" data-tchmi-height-unit="px" data-tchmi-left="91" data-tchmi-left-unit="px" data-tchmi-system-keyboard-input-mode="none" data-tchmi-text="Input" data-tchmi-top="349" data-tchmi-top-unit="px" data-tchmi-width="50" data-tchmi-width-unit="px">
-<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
-{
-  "top": 3,
-  "right": 3,
-  "bottom": 3,
-  "left": 3
-}
-</script>
-<script data-tchmi-target-attribute="data-tchmi-color" type="application/json">
-{
-  "color": "#000000"
-}
-</script>
-
-
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "ColorInput_1.onAttached",
-    "actions": []
-  }
-]
-</script>
-</div>
 </div>
