@@ -64,7 +64,16 @@
   ],
   "userFunctions": [],
   "symbols": {
-    "internal": {},
+    "internal": {
+      "iColor": {
+        "value": {
+          "color": "rgba(211, 6, 239, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      }
+    },
     "themedResources": {}
   },
   "trigger": [],
@@ -114,7 +123,7 @@
     }
   ],
   "systemKeyboard": {
-    "providerName": "",
+    "providerName": "Beckhoff.TcHmiKeyboard",
     "projectKeyboardMapping": {
       "de": {
         "text": "KeyboardLayouts/German - compact.keyboard.json",

@@ -5,6 +5,10 @@
       "nugetId": "Beckhoff.TwinCAT.HMI.Framework"
     },
     {
+      "type": "Package",
+      "nugetId": "Beckhoff.TwinCAT.HMI.Controls"
+    },
+    {
       "type": "Control",
       "basePath": "./ColorInput",
       "descriptionFile": "Description.json",

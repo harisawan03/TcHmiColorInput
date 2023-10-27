@@ -13,7 +13,7 @@
   },
   "visible": true,
   "themeable": "Standard",
-  "base": "TcHmi.Controls.System.TcHmiControl",
+  "base": "TcHmi.Controls.Beckhoff.TcHmiInput",
   "description": "An input to enter a color value.",
   "properties": {
     "containerControl": false,
@@ -77,9 +77,10 @@
       "description": "Default color of the control",
       "readOnly": false,
       "bindable": true,
+      "defaultBindingMode": "TwoWay",
       "heritable": true,
-      "defaultValue": null,
-      "defaultValueInternal": null
+      "defaultValue": { "color": "#000000" },
+      "defaultValueInternal": { "color": "#000000" }
     },
     {
       "name": "data-tchmi-background-color",
@@ -89,11 +90,39 @@
       "displayName": "BackgroundColor",
       "visible": false,
       "type": "tchmi:framework#/definitions/Color"
+    },
+    {
+      "name": "data-tchmi-test-color",
+      "propertyName": "TextColor",
+      "propertySetterName": "setTextColor",
+      "propertyGetterName": "getTextColor",
+      "displayName": "TextColor",
+      "visible": false,
+      "type": "tchmi:framework#/definitions/Color"
     }
   ],
   "attributeCategories": [],
   "functions": [],
-  "events": [],
+  "events": [
+    {
+      "name": ".onColorChanged",
+      "displayName": ".onColorChanged",
+      "visible": true,
+      "displayPriority": 30,
+      "category": "Control",
+      "description": "This event fires when the color has changed.",
+      "heritable": true,
+      "allowsPreventDefault": false
+    },
+    {
+      "name": ".onTextChanged",
+      "displayName": ".onTextChanged",
+      "visible": false,
+      "category": "Control",
+      "heritable": false,
+      "allowsPreventDefault": false
+    }
+  ],
   "dataTypes": [
     {
       "schema": "Schema/Types.Schema.json"

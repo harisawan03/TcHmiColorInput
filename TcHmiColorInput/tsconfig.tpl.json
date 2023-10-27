@@ -21,6 +21,7 @@
     "alwaysStrict": false
   },
   "include": [
-    "$(Beckhoff.TwinCAT.HMI.Framework).InstallPath/TcHmi.d.ts"
+    "$(Beckhoff.TwinCAT.HMI.Framework).InstallPath/TcHmi.d.ts",
+    "$(Beckhoff.TwinCAT.HMI.Framework).InstallPath/TcHmiInput/TcHmiInput.d.ts"
   ]
 }

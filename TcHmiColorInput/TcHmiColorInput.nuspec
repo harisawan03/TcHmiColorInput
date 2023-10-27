@@ -17,6 +17,7 @@
     <dependencies>
       <group targetFramework="native1.12-tchmi">
         <dependency id="Beckhoff.TwinCAT.HMI.Framework" version="12.760.48" />
+        <dependency id="Beckhoff.TwinCAT.HMI.Controls" version="12.760.48" />
       </group>
     </dependencies>
   </metadata>
