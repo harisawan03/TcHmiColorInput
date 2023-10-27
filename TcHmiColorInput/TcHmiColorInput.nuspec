@@ -3,13 +3,13 @@
   <metadata>
     <id>TcHmiColorInput</id>
     <version>1.0.0</version>
-    <description>-.-</description>
-    <authors>ADD AUTHOR</authors>
+    <description>-A color input control for TwinCAT HMI-</description>
+    <authors>Haris Awan</authors>
     <title>TcHmiColorInput</title>
-    <owners>ADD OWNER</owners>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <owners>Haris Awan</owners>
+    <projectUrl>https://github.com/harisawan03/TcHmiColorInput</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Initial release with core functionality.</releaseNotes>
     <copyright>Copyright 2023</copyright>
     <tags>TwinCAT HMI ProductVersion_1.12.760.48</tags>
     <license type="file">LICENSE.txt</license>
