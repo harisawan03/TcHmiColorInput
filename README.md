@@ -9,7 +9,7 @@ v1.0.0 built in TE2000 1.12.760.48 and must be used in equal or greater versions
 
 ## Getting Started
 
-Ensure TE2000 v1.12.760.48+ installed and all System Requirements are met for TwinCAT HMI Engineering.
+Ensure TE2000 v1.12.760.48+ is installed and all System Requirements are met for TwinCAT HMI Engineering.
 
 Download TE2000: [https://www.beckhoff.com/en-us/support/download-finder/search-result/?download_group=266706964&download_item=266706975](https://www.beckhoff.com/en-us/support/download-finder/search-result/?download_group=168439936&download_item=168440538)
 
@@ -17,7 +17,7 @@ System Requirements: https://infosys.beckhoff.com/content/1033/te2000_tc3_hmi_en
 
 
 ### To use in a TcHMI Project
-Begin by cloing this repository and opening the included project. This includes the Framework Project and a Demo HMI project. To see the control in action, simply open the Desktop.view and Liveview.
+Begin by cloning this repository and opening the included project. This includes the Framework Project and a Demo HMI project. To see the control in action, simply open the Desktop.view and Liveview.
 
 To bring the control into another project, existing or new, create a NuGet Package from the Framework Project. 
 
@@ -25,7 +25,7 @@ Right-click on the Framework Project in the Solution Explorer and select "Create
 
 ![image](https://github.com/harisawan03/TcHmiColorInput/assets/19915615/ad2f01a9-6242-4207-8f06-d0b2853be97e)
 
-Follow the propmts to build the project, then the nupkg file will be added to your local NuGet store, commonly at C:\TwinCAT\Functions\TE2000-HMI-Engineering\References
+Follow the prompts to build the project, then the nupkg file will be added to your local NuGet store, commonly at C:\TwinCAT\Functions\TE2000-HMI-Engineering\References
 
 Next, in a separate TwinCAT HMI Project, right-click on the Project in Solution Explorer and select "Manage NuGet Packages" -
 ![image](https://github.com/harisawan03/TcHmiColorInput/assets/19915615/f43f3198-ba36-4c25-991d-6f6859c4b6ad)
