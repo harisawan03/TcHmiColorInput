@@ -11,7 +11,7 @@ v1.0.0 built in TE2000 1.12.760.48 and must be used in equal or greater versions
 
 Ensure TE2000 v1.12.760.48+ is installed and all System Requirements are met for TwinCAT HMI Engineering.
 
-Download TE2000: [https://www.beckhoff.com/en-us/support/download-finder/search-result/?download_group=266706964&download_item=266706975](https://www.beckhoff.com/en-us/support/download-finder/search-result/?download_group=168439936&download_item=168440538)
+Download TE2000: https://www.beckhoff.com/en-us/products/automation/twincat/texxxx-twincat-3-engineering/te2000.html
 
 System Requirements: https://infosys.beckhoff.com/content/1033/te2000_tc3_hmi_engineering/2669710091.html?id=84520022315212463
 
